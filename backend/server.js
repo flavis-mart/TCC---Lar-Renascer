@@ -64,11 +64,11 @@ const basicAuth = (req, res, next) => {
 // ROTAS INTERNAS PROTEGIDAS (Uso do basicAuth)
 // ==========================================
 
-// Listar todas as gestantes (Área das freiras)
+// Listar todas as gestantes
 app.get('/interno/gestantes', basicAuth, async (req, res) => {
   try {
     const gestantes = await prisma.gestante.findMany({
-      orderBy: { criado_em: 'desc' } // Mais recentes primeiro
+      orderBy: { criado_em: 'desc' }
     });
     res.json(gestantes);
   } catch (error) {
@@ -77,7 +77,7 @@ app.get('/interno/gestantes', basicAuth, async (req, res) => {
   }
 });
 
-// Listar todas as doações (Área das freiras)
+// Listar todas as doações
 app.get('/interno/doacoes', basicAuth, async (req, res) => {
   try {
     const doacoes = await prisma.doacao.findMany({
@@ -93,9 +93,6 @@ app.get('/interno/doacoes', basicAuth, async (req, res) => {
 // ROTA PÚBLICA: Gerar o QR Code para Doação via Pix
 app.get('/pix', async (req, res) => {
   try {
-    // IMPORTANTE: Para o MVP, você pode gerar um "Pix Copia e Cola" estático (sem valor definido) 
-    // direto no aplicativo do banco da instituição e colar a string inteira aqui.
-    // Abaixo está uma string de exemplo (não funcional).
     const payloadPix = "00020126580014br.gov.bcb.pix0136123e4567-e89b-12d3-a456-4266554400005204000053039865802BR5913Lar Renascer6009Joinville62070503***6304ABCD";
 
     // Gera a imagem do QR Code em formato Data URI (Base64) - fácil para o frontend exibir na tag <img>
