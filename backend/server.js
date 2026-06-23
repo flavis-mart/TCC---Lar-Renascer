@@ -1,11 +1,11 @@
 const express = require('express');
 const { PrismaClient } = require('@prisma/client');
+const cors = require('cors');
+const qrcode = require('qrcode');
 
 const prisma = new PrismaClient();
 const app = express();
-
-const qrcode = require('qrcode');
-
+app.use(cors());
 app.use(express.json());
 
 // ROTA PÚBLICA: Cadastrar uma nova gestante
