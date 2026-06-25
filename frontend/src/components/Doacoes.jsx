@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_BASE_URL = "https://api-lar-renascer.onrender.com"; 
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://tcc-lar-renascer.onrender.com/";
 
 export default function Doacoes() {
   const [formData, setFormData] = useState({
