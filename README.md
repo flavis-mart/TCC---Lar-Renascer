@@ -58,7 +58,6 @@ O projeto encontra-se totalmente implantado em ambiente de nuvem e pode ser aces
 
 * **💻 Plataforma Web (Frontend):** [https://tcc-lar-renascer.vercel.app](https://tcc-lar-renascer.vercel.app)
 * **🔒 Painel Restrito de Gestantes:** [https://tcc-lar-renascer.vercel.app/painel-gestantes](https://tcc-lar-renascer.vercel.app/painel-gestantes)
-* **💰 Painel Restrito de Doações:** [https://tcc-lar-renascer.vercel.app/painel-doacoes](https://tcc-lar-renascer.vercel.app/painel-doacoes)
 * **⚙️ Servidor Backend (API REST):** [https://tcc-lar-renascer.onrender.com](https://tcc-lar-renascer.onrender.com)
 ---
 
