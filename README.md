@@ -9,6 +9,7 @@
 - [Sobre o projeto](#-sobre-o-projeto)
 - [O problema e a solução](#-o-problema-e-a-solução)
 - [Funcionalidades do MVP](#-funcionalidades-do-mvp)
+- [Links do projeto em produção](#-links-do-projeto-em-produção)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Arquitetura](#-arquitetura)
 - [Como executar o projeto](#-como-executar-o-projeto)
@@ -16,7 +17,6 @@
 - [Referência rápida da API](#-referência-rápida-da-api)
 - [Segurança e privacidade](#-segurança-e-privacidade)
 - [Equipe](#-equipe)
-- [Licença](#-licença)
 - [Agradecimentos](#-agradecimentos)
 
 ---
@@ -51,6 +51,15 @@ O projeto nasce de um problema concreto, identificado em conversa direta com a i
 - [x] Telas frontend concluídas (landing page, cadastro e doação)
 - [x] Painéis internos de relatórios (Gestantes e Doações) protegidos por login simplificado
 
+---
+## 🔗 Links do Projeto em Produção
+
+O projeto encontra-se totalmente implantado em ambiente de nuvem e pode ser acessado através dos links oficiais abaixo:
+
+* **💻 Plataforma Web (Frontend):** [https://tcc-lar-renascer.vercel.app](https://tcc-lar-renascer.vercel.app)
+* **🔒 Painel Restrito de Gestantes:** [https://tcc-lar-renascer.vercel.app/painel-gestantes](https://tcc-lar-renascer.vercel.app/painel-gestantes)
+* **💰 Painel Restrito de Doações:** [https://tcc-lar-renascer.vercel.app/painel-doacoes](https://tcc-lar-renascer.vercel.app/painel-doacoes)
+* **⚙️ Servidor Backend (API REST):** [https://tcc-lar-renascer.onrender.com](https://tcc-lar-renascer.onrender.com)
 ---
 
 ## 🛠 Tecnologias utilizadas
